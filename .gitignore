@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.ncb
+*.aps
+*.ipch
+
+# Build output directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+bin/
+build/
+out/
+
+# MSBuild intermediates
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.tlog
+*.lastbuildstate
+*.log
+
+# Executables and generated binaries
+*.exe
+*.dll
+*.app
+
+# Generated assembly/listing artifacts
+*.asm
+*.lst
+
+# Test outputs
+tests/out/
+
