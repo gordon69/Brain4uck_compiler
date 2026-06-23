@@ -75,10 +75,7 @@ void PrintUsage() {
         << "  --dialect <nasm|fasm|masm> ASM dialect for --emit asm (default: nasm)\n"
         << "  -o, --output <path>       Output file path\n"
         << "  --tape-size <N>           Tape size in bytes (default: 30000)\n"
-        << "  -h, --help                Show help\n\n"
-        << "Notes:\n"
-        << "  * Only internal backend is used.\n"
-        << "  * --emit exe supports x86 and x64 without external tools.\n";
+        << "  -h, --help                Show help\n";
 }
 
 std::optional<Config> ParseArgs(int argc, char** argv) {
